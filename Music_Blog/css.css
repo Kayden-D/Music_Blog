@@ -89,3 +89,41 @@ h1 {
   color: white;
   flex: 1;
 }
+
+.column-layout {
+max-width: 1200px;
+background-color: #f1f1f1
+margin: 40px;
+line-height : 1.65;
+padding: 30px 50px;
+display: flex;
+}
+
+.main-column {
+	flex: 3;
+	order:2;
+}
+
+.sidebar-one{
+	flex: 1;
+	order: 1;
+}
+
+.sidebar-two {
+	flex: 1;
+	order:3;
+}
+
+.form-row {
+	padding: 30px;
+	display:flex;
+}
+
+.form-row label {
+	padding-right: 30px;
+	flex:1;
+}
+
+form-row input {
+	flex:1;
+}
