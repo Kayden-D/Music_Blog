@@ -1,0 +1,91 @@
+/*flexbox music*/
+/*Jonathan Buls*/
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.equal-height-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.first {
+  background-color: #F2F0EF;
+  
+  flex: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-a {
+  flex: 1;
+}
+
+.first-b {      
+  flex: 1;
+}
+
+.first-c {
+	
+  flex: 1;
+}
+
+.first-d {
+	
+  flex: 1;
+}
+
+.first-e {
+	
+  flex: 1;
+}
+
+.first-f {
+	
+  flex: 1;
+}
+
+.second {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-a {
+  background-color: #4668A5;
+  color: white;
+  flex: 1;
+}
+
+.second-b {
+  background-color: #6495ED;
+  color: white;
+  flex: 1;
+}
+
+.second-c {
+  background-color: #4668A5;
+  color: white;
+  flex: 1;
+}
+
+.second-d {
+  background-color: #6495ED;
+  color: white;
+  flex: 1;
+}
+
+.second-e {
+  background-color: #4668A5;
+  color: white;
+  flex: 1;
+}
+
+.second-f {
+  background-color: #6495ED;
+  color: white;
+  flex: 1;
+}
