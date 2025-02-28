@@ -1,0 +1,39 @@
+#wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    background-color: aqua;
+    padding: 25px;
+}
+
+#container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: coral;
+    min-height: 200px;
+}
+
+footer {
+    background-color: aqua;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Responsive: Stack columns when screen is 750px or less */
+@media (max-width: 750px) {
+    #container {
+        flex-direction: column;
+        background-color: orange;
+    }
+}
